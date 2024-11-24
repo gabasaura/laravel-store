@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\RouteGroup;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -23,7 +24,7 @@ Route::group([
     Route::get('/', function () {
         return view('dashboard');
     })->name('dashboard');
-
+    
     // CATEGORY CRUD
     Route::prefix('category')->group(function () {
         Route::get('/', App\Livewire\Dashboard\Category\Index::class)->name("d-category-index");
