@@ -1,3 +1,3 @@
 <div>
-    {{-- Do your work, then step back. --}}
+    GABA TESTER CATEGORY COMPONENTE LIVEWIRE
 </div>
