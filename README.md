@@ -1,18 +1,25 @@
 # Laravel Store 🛒
 
-Welcome to **Laravel Store**, a robust and user-friendly e-commerce platform built with the power of [Laravel](https://laravel.com/)! Whether you're launching a new store or enhancing an existing one, Laravel Store provides the tools and flexibility you need to manage products, customers, and orders efficiently. 🚀
+A personal project designed as a study case using Laravel and Livewire.  
+Store Trial is an e-commerce platform built with Laravel! 🚀
+
+**This project aims to explore and implement:**
+  
+Laravel Framework: A robust and elegant PHP framework for building web applications.  
+Livewire: A full-stack framework for Laravel that simplifies building dynamic interfaces.  
+Modular CSS Architecture: To achieve a componentized and maintainable design system.  
 
 ---
 
 ## 🌟 Features
 
-[ ] **Product Management**: Add, update, and organize your products with ease.  
-[ ] **Order Management**: Keep track of customer orders with detailed insights.  
-[ ] **Authentication**: Secure and scalable user authentication out of the box.  
-[ ] **Customizable Themes**: Tailor the look and feel of your store to match your brand.  
-[ ] **Responsive Design**: Fully optimized for both desktop and mobile devices. 📱💻  
-[ ] **Localization**: Multi-language support to reach global customers.  
-[ ] **Integrated Payment Gateway**: Easily handle transactions with popular payment systems.  
+[✖︎] **Product Management**: Add, update, and organize your products with ease.  
+[✖︎] **Order Management**: Keep track of customer orders with detailed insights.  
+[●] **Authentication**: Secure and scalable user authentication out of the box.  
+[✖︎] **Customizable Themes**: Tailor the look and feel of your store to match your brand.  
+[✖︎] **Responsive Design**: Fully optimized for both desktop and mobile devices. 📱💻  
+[✖︎] **Localization**: Multi-language support to reach global customers.  
+[✖︎] **Integrated Payment Gateway**: Easily handle transactions with popular payment systems.  
 
 ---
 
