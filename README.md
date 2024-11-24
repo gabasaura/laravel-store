@@ -11,15 +11,15 @@ Modular CSS Architecture: To achieve a componentized and maintainable design sys
 
 ---
 
-## 🌟 Features
+## ✨ Features
 
-[✖︎] **Product Management**: Add, update, and organize your products with ease.  
-[✖︎] **Order Management**: Keep track of customer orders with detailed insights.  
-[●] **Authentication**: Secure and scalable user authentication out of the box.  
-[✖︎] **Customizable Themes**: Tailor the look and feel of your store to match your brand.  
-[✖︎] **Responsive Design**: Fully optimized for both desktop and mobile devices. 📱💻  
-[✖︎] **Localization**: Multi-language support to reach global customers.  
-[✖︎] **Integrated Payment Gateway**: Easily handle transactions with popular payment systems.  
+[☒] **Product Management**: Add, update, and organize your products with ease.  
+[☒] **Order Management**: Keep track of customer orders with detailed insights.  
+[☑︎] **Authentication**: Secure and scalable user authentication out of the box.  
+[☒] **Customizable Themes**: Tailor the look and feel of your store to match your brand.  
+[☒] **Responsive Design**: Fully optimized for both desktop and mobile devices. 📱💻  
+[☒] **Localization**: Multi-language support to reach global customers.  
+[☒] **Integrated Payment Gateway**: Easily handle transactions with popular payment systems.  
 
 ---
 
@@ -56,4 +56,8 @@ Follow these steps to set up the Laravel Store on your local machine:
 ---
 **Your Laravel Store is now ready! 🎉**   
 Visit http://localhost:8000 in your browser to explore.
+
+---
+The project is based on this [course](https://www.udemy.com/share/10ceGB3@Ps7-b9cjcKkWk4tK2mTaaLEWlRoIi9QrkMqmEKpXa0aeJXfm5yb5je7N0ImFalc=/)
+
 
