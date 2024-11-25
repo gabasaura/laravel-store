@@ -26,23 +26,23 @@ Route::group([
     })->name('dashboard');
     
     // CATEGORY CRUD
-    Route::prefix('category')->group(function () {
+    Route::group(['prefix' => 'category'], function () {
         Route::get('/', App\Livewire\Dashboard\Category\Index::class)->name("d-category-index");
-        Route::get('create', App\Livewire\Dashboard\Category\Save::class)->name("d-category-create");
-        Route::get('edit/{id}', App\Livewire\Dashboard\Category\Save::class)->name("d-category-edit");
+        Route::get('/create', App\Livewire\Dashboard\Category\Save::class)->name("d-category-create");
+        Route::get('/edit/{id}', App\Livewire\Dashboard\Category\Save::class)->name("d-category-edit");
     });
 
     // POST CRUD
-    Route::prefix('post')->group(function () {
+    Route::group(['prefix' => 'post'], function () {
         Route::get('/', App\Livewire\Dashboard\Post\Index::class)->name("d-post-index");
-        Route::get('create', App\Livewire\Dashboard\Post\Save::class)->name("d-post-create");
-        Route::get('edit/{id}', App\Livewire\Dashboard\Post\Save::class)->name("d-post-edit");
+        Route::get('/create', App\Livewire\Dashboard\Post\Save::class)->name("d-post-create");
+        Route::get('/edit/{id}', App\Livewire\Dashboard\Post\Save::class)->name("d-post-edit");
     });
 
     // TAG CRUD
-    Route::prefix('tag')->group(function () {
+    Route::group(['prefix' => 'tag'], function () {
         Route::get('/', App\Livewire\Dashboard\Tag\Index::class)->name("d-tag-index");
-        Route::get('create', App\Livewire\Dashboard\Tag\Save::class)->name("d-tag-create");
-        Route::get('edit/{id}', App\Livewire\Dashboard\Tag\Save::class)->name("d-tag-edit");
+        Route::get('/create', App\Livewire\Dashboard\Tag\Save::class)->name("d-tag-create");
+        Route::get('/edit/{id}', App\Livewire\Dashboard\Tag\Save::class)->name("d-tag-edit");
     });
 });
