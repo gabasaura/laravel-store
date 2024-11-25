@@ -9,6 +9,10 @@ class Save extends Component
 {
     public $title;
     public $text;
+    protected $rules = [
+        'title' => 'required|min:2|max:255',
+        'text' => 'nullable'
+    ];
 
     public function render()
     {
@@ -17,6 +21,7 @@ class Save extends Component
 
     function submit() 
     {
+        $this->validate();
         Category::create(
         [
         'title' => $this->title,
